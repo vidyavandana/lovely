@@ -32,7 +32,7 @@ export default function Home() {
 
       {upiLink && (
         <div style={{ marginTop: '2rem' }}>
-          <p><strong>Click to Pay:</strong></p>
+          <p className= "border w-full"><strong>Click to Pay:</strong></p>
           <a href={upiLink} style={{ color: 'blue' }}>{upiLink}</a>
 
           <p><strong>Or Scan QR:</strong></p>
